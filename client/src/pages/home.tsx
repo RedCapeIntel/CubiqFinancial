@@ -69,36 +69,64 @@ export default function Home() {
   return (
     <div className="font-inter text-blackolive">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b border-lightgrey z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="font-montserrat font-bold text-2xl text-hunter">CUBIQ</div>
+      <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50 border-b border-white/20">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="flex justify-between items-center h-20">
+            {/* Logo */}
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 bg-hunter rounded-lg flex items-center justify-center">
+                <div className="w-4 h-4 border-2 border-white transform rotate-45"></div>
+              </div>
+              <span className="font-montserrat font-bold text-2xl text-hunter lowercase">cubiq</span>
+            </div>
             
-            {/* Desktop Navigation */}
-            <div className="hidden md:flex space-x-8">
+            {/* Center Navigation - Desktop */}
+            <div className="hidden lg:flex items-center space-x-1 bg-lightgrey/50 rounded-full px-2 py-2">
               <button 
-                onClick={() => scrollToSection('about')}
-                className="text-blackolive hover:text-hunter transition-colors duration-200"
+                onClick={() => scrollToSection('hero')}
+                className="px-6 py-3 text-blackolive hover:text-hunter hover:bg-white/80 rounded-full transition-all duration-200 font-medium"
               >
-                About
+                Home
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-blackolive hover:text-hunter transition-colors duration-200"
+                className="px-6 py-3 text-blackolive hover:text-hunter hover:bg-white/80 rounded-full transition-all duration-200 font-medium"
               >
                 Services
               </button>
               <button 
+                onClick={() => scrollToSection('about')}
+                className="px-6 py-3 text-blackolive hover:text-hunter hover:bg-white/80 rounded-full transition-all duration-200 font-medium"
+              >
+                About
+              </button>
+              <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-blackolive hover:text-hunter transition-colors duration-200"
+                className="px-6 py-3 text-blackolive hover:text-hunter hover:bg-white/80 rounded-full transition-all duration-200 font-medium"
               >
                 Contact
               </button>
             </div>
 
+            {/* Right Side Buttons - Desktop */}
+            <div className="hidden lg:flex items-center space-x-3">
+              <Button 
+                variant="outline"
+                className="border-2 border-lightgrey text-blackolive hover:border-hunter hover:text-hunter bg-white/50 backdrop-blur-sm rounded-full px-6 py-2 font-medium transition-all duration-200 shadow-sm"
+              >
+                Log In
+              </Button>
+              <Button 
+                onClick={() => scrollToSection('contact')}
+                className="bg-hunter text-white hover:bg-hunter/90 rounded-full px-6 py-2 font-medium transition-all duration-200 shadow-sm"
+              >
+                Get Started
+              </Button>
+            </div>
+
             {/* Mobile Menu Button */}
             <button 
-              className="md:hidden text-blackolive"
+              className="lg:hidden p-2 text-blackolive hover:text-hunter transition-colors duration-200"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -107,26 +135,48 @@ export default function Home() {
 
           {/* Mobile Navigation */}
           {mobileMenuOpen && (
-            <div className="md:hidden py-4 border-t border-lightgrey">
-              <div className="flex flex-col space-y-4">
+            <div className="lg:hidden pb-6 border-t border-lightgrey/50 mt-4">
+              <div className="flex flex-col space-y-2 pt-4">
                 <button 
-                  onClick={() => scrollToSection('about')}
-                  className="text-blackolive hover:text-hunter transition-colors duration-200 text-left"
+                  onClick={() => scrollToSection('hero')}
+                  className="text-left px-4 py-3 text-blackolive hover:text-hunter hover:bg-lightgrey/30 rounded-lg transition-all duration-200 font-medium"
                 >
-                  About
+                  Home
                 </button>
                 <button 
                   onClick={() => scrollToSection('services')}
-                  className="text-blackolive hover:text-hunter transition-colors duration-200 text-left"
+                  className="text-left px-4 py-3 text-blackolive hover:text-hunter hover:bg-lightgrey/30 rounded-lg transition-all duration-200 font-medium"
                 >
                   Services
                 </button>
                 <button 
+                  onClick={() => scrollToSection('about')}
+                  className="text-left px-4 py-3 text-blackolive hover:text-hunter hover:bg-lightgrey/30 rounded-lg transition-all duration-200 font-medium"
+                >
+                  About
+                </button>
+                <button 
                   onClick={() => scrollToSection('contact')}
-                  className="text-blackolive hover:text-hunter transition-colors duration-200 text-left"
+                  className="text-left px-4 py-3 text-blackolive hover:text-hunter hover:bg-lightgrey/30 rounded-lg transition-all duration-200 font-medium"
                 >
                   Contact
                 </button>
+                
+                {/* Mobile Auth Buttons */}
+                <div className="flex flex-col space-y-3 pt-4 border-t border-lightgrey/50">
+                  <Button 
+                    variant="outline"
+                    className="border-2 border-lightgrey text-blackolive hover:border-hunter hover:text-hunter bg-white/50 rounded-full font-medium transition-all duration-200"
+                  >
+                    Log In
+                  </Button>
+                  <Button 
+                    onClick={() => scrollToSection('contact')}
+                    className="bg-hunter text-white hover:bg-hunter/90 rounded-full font-medium transition-all duration-200"
+                  >
+                    Get Started
+                  </Button>
+                </div>
               </div>
             </div>
           )}
@@ -134,7 +184,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen pt-16 flex items-center bg-white">
+      <section id="hero" className="min-h-screen pt-20 flex items-center bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
