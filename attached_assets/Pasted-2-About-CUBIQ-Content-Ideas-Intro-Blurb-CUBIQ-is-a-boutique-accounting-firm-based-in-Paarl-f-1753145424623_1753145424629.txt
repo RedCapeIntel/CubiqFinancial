@@ -1,0 +1,98 @@
+2. About CUBIQ
+📝 Content Ideas:
+Intro Blurb:
+
+CUBIQ is a boutique accounting firm based in Paarl, founded by Cameron Clarke and Jaime Cupido. With a passion for clarity and connection, we help clients grow confidently with modern, relationship-driven financial support.
+
+Mission Statement:
+
+To simplify financial management for clients and creatives through proactive service, cloud-based systems, and tailored insights.
+
+Positioning Statement:
+
+For entrepreneurs, investors, and families, CUBIQ is the trusted partner that turns financial complexity into clarity — because your business deserves more than just balance sheets.
+
+🎨 Visual Tips:
+Icons or line illustrations for mission, values, founders.
+
+Side-by-side layout: Founders’ intro (with mini portraits if approved) on left, mission/positioning on right.
+
+Use a serif accent (like Playfair Display or Libre Baskerville) subtly for elegance.
+
+💼 3. Services
+📝 Content Ideas:
+Headline:
+
+Tailored Services. Measurable Impact.
+
+Service Blocks:
+Each in a card format with icon, short title, and 1–2 line summary.
+
+🔹 Cloud-Based Accounting
+
+Access your numbers anytime, anywhere — secure, smart, and up-to-date.
+
+🔹 Financial Partnerships
+
+More than accountants — we work alongside you with expert advice and insight.
+
+🔹 Strategic Tax Services
+
+Optimized tax planning for your personal and business needs.
+
+🎨 Visual Tips:
+3 cards in a row on desktop, stack vertically on mobile.
+
+Use icons in emerald or gold tones.
+
+Add soft drop shadows or subtle hover effects for interactivity.
+
+📬 4. Contact Info
+📝 Content Ideas:
+Headline:
+
+Let’s Connect
+
+Details:
+
+📧 Email: hello@cubiq.co.za
+
+📞 Phone: (if preferred)
+
+📍 Paarl, Western Cape
+
+📱 WhatsApp / Digital Business Card (QR optional)
+
+Contact Form Fields:
+
+Name
+
+Email
+
+Message
+
+CTA Button:
+
+“Send Message” (with thank-you confirmation)
+
+🎨 Visual Tips:
+Keep form compact and mobile-optimized.
+
+Rounded fields, placeholder text in soft grey.
+
+Include a decorative line or cube pattern behind the form box for brand identity flair.
+
+⚖️ 5. Footer
+📝 Content Ideas:
+© 2025 CUBIQ. All rights reserved.
+
+Terms & Privacy (link if needed)
+
+Built by Red Cape Intel (optional mention)
+
+🎨 Visual Tips:
+Use charcoal background with light grey or white text.
+
+Centered or justified layout.
+
+Minimalist with clean iconography if social links are added later.
