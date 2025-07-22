@@ -170,7 +170,7 @@ export default function Home() {
             {/* Right Visual */}
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" 
                 alt="Modern professional workspace with clean geometric design" 
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
@@ -211,7 +211,7 @@ export default function Home() {
                   className="w-16 h-16 rounded-full object-cover border-2 border-khaki"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1494790108755-2616b9e65c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150" 
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150" 
                   alt="Jaime Cupido, Co-founder" 
                   className="w-16 h-16 rounded-full object-cover border-2 border-khaki"
                 />
@@ -434,8 +434,8 @@ export default function Home() {
               </Card>
 
               <img 
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" 
-                alt="Professional consultation room with modern furniture" 
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=400" 
+                alt="Modern professional office with clean design and natural lighting" 
                 className="rounded-2xl shadow-lg w-full h-auto"
               />
             </div>
