@@ -8,6 +8,24 @@ This is a modern, responsive website for CUBIQ, a boutique accounting firm based
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes (January 2025)
+
+✓ Implemented 60-30-10 color strategy across entire website:
+  - 60% Neutral: Pure white backgrounds, light grey sections, black text
+  - 30% Secondary: Hunter green headers, navigation elements, cards
+  - 10% Accent: Emerald green for CTAs, buttons, hover states, dividers
+
+✓ Updated navigation bar with modern Kvistly-inspired design:
+  - Centered navigation pills with rounded backgrounds
+  - Geometric logo with lowercase "cubiq" branding
+  - Login/Get Started buttons with emerald accent colors
+
+✓ Enhanced visual hierarchy with consistent color application:
+  - All body text converted to pure black for maximum contrast
+  - Hunter green for all section headers and primary elements
+  - Emerald green for call-to-action elements and interactive states
+  - Improved shadows, rounded corners, and modern card designs
+
 ## System Architecture
 
 The application follows a monorepo structure with clear separation between client, server, and shared code:

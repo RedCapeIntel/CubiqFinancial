@@ -26,11 +26,15 @@
   --ring: hsl(20, 14.3%, 4.1%);
   --radius: 0.5rem;
   
-  /* CUBIQ Brand Colors */
+  /* CUBIQ Brand Colors - 60-30-10 Strategy */
   --khaki: hsl(48, 20%, 58%);
   --hunter: hsl(144, 56%, 23%);
   --lightgrey: hsl(0, 0%, 93%);
   --blackolive: hsl(65, 5%, 22%);
+  --champagne: hsl(45, 55%, 75%);
+  --emerald: hsl(160, 60%, 45%);
+  --pure-black: hsl(0, 0%, 0%);
+  --pure-white: hsl(0, 0%, 100%);
 }
 
 .dark {
@@ -63,7 +67,8 @@
 
   body {
     @apply font-inter antialiased bg-background text-foreground;
-    color: var(--blackolive);
+    color: var(--pure-black);
+    background-color: var(--pure-white);
   }
   
   html {
@@ -152,12 +157,68 @@
     background-color: hsl(48, 20%, 58% / 0.2);
   }
   
+  .text-champagne {
+    color: var(--champagne);
+  }
+  
+  .text-emerald {
+    color: var(--emerald);
+  }
+  
+  .text-pure-black {
+    color: var(--pure-black);
+  }
+  
+  .text-pure-white {
+    color: var(--pure-white);
+  }
+  
+  .bg-champagne {
+    background-color: var(--champagne);
+  }
+  
+  .bg-emerald {
+    background-color: var(--emerald);
+  }
+  
+  .bg-pure-black {
+    background-color: var(--pure-black);
+  }
+  
+  .bg-pure-white {
+    background-color: var(--pure-white);
+  }
+  
+  .border-champagne {
+    border-color: var(--champagne);
+  }
+  
+  .border-emerald {
+    border-color: var(--emerald);
+  }
+  
+  .hover\:bg-champagne\/80:hover {
+    background-color: hsl(45, 55%, 75% / 0.8);
+  }
+  
+  .hover\:bg-emerald\/80:hover {
+    background-color: hsl(160, 60%, 45% / 0.8);
+  }
+  
   .text-blackolive\/80 {
     color: hsl(65, 5%, 22% / 0.8);
   }
   
   .text-blackolive\/70 {
     color: hsl(65, 5%, 22% / 0.7);
+  }
+  
+  .text-black\/80 {
+    color: hsl(0, 0%, 0% / 0.8);
+  }
+  
+  .text-black\/70 {
+    color: hsl(0, 0%, 0% / 0.7);
   }
   
   .bg-lightgrey\/30 {
